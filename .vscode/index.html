@@ -1,0 +1,2930 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Silk Aura | Elegance Woven in Every Thread
+    </title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+
+    <style>
+
+        /* =====================================
+           RESET
+        ===================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+
+            font-family: 'Poppins', sans-serif;
+
+            background: #fffaf7;
+
+            color: #333;
+
+        }
+
+
+        h1,
+        h2,
+        h3 {
+
+            font-family: 'Playfair Display', serif;
+
+        }
+
+
+        a {
+
+            text-decoration: none;
+
+        }
+
+
+        /* =====================================
+           HEADER
+        ===================================== */
+
+        header {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            z-index: 1000;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 17px 7%;
+
+            background: rgba(67, 12, 36, 0.97);
+
+            box-shadow:
+                0 3px 18px rgba(0, 0, 0, 0.18);
+
+        }
+
+
+        .logo {
+
+            color: #f4d19b;
+
+            font-family: 'Playfair Display', serif;
+
+            font-size: 30px;
+
+            font-weight: 700;
+
+            letter-spacing: 3px;
+
+        }
+
+
+        nav {
+
+            display: flex;
+
+            gap: 28px;
+
+        }
+
+
+        nav a {
+
+            color: white;
+
+            font-size: 14px;
+
+            font-weight: 500;
+
+            transition: 0.3s;
+
+        }
+
+
+        nav a:hover {
+
+            color: #f4d19b;
+
+        }
+
+
+        /* =====================================
+           HOME
+        ===================================== */
+
+        #home {
+
+            min-height: 100vh;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            padding: 120px 20px 70px;
+
+            background:
+
+                linear-gradient(
+                    rgba(56, 8, 28, 0.65),
+                    rgba(56, 8, 28, 0.65)
+                ),
+
+                url("https://tse3.mm.bing.net/th/id/OIP.y2uJ7jD4x1tP_qlxSztuiQHaEJ?r=0&w=1600&h=896&rs=1&pid=ImgDetMain&o=7&rm=3")
+
+                center / cover no-repeat;
+
+        }
+
+
+        .hero-content {
+
+            max-width: 900px;
+
+            color: white;
+
+        }
+
+
+        .hero-small {
+
+            color: #f4d19b;
+
+            font-size: 15px;
+
+            letter-spacing: 5px;
+
+        }
+
+
+        .hero-content h1 {
+
+            font-size: 82px;
+
+            line-height: 1.1;
+
+            margin: 18px 0;
+
+        }
+
+
+        .hero-content p {
+
+            font-size: 21px;
+
+            font-weight: 300;
+
+            margin-bottom: 35px;
+
+        }
+
+
+        .main-btn {
+
+            display: inline-block;
+
+            background: #c99550;
+
+            color: white;
+
+            padding: 14px 32px;
+
+            border-radius: 30px;
+
+            font-weight: 600;
+
+            transition: 0.3s;
+
+        }
+
+
+        .main-btn:hover {
+
+            background: #f1c37d;
+
+            color: #4b122b;
+
+            transform: translateY(-3px);
+
+        }
+
+
+        /* =====================================
+           SECTIONS
+        ===================================== */
+
+        section {
+
+            padding: 90px 8%;
+
+        }
+
+
+        .section-title {
+
+            text-align: center;
+
+            margin-bottom: 50px;
+
+        }
+
+
+        .section-title span {
+
+            color: #bb8240;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+            letter-spacing: 3px;
+
+        }
+
+
+        .section-title h2 {
+
+            color: #57142f;
+
+            font-size: 43px;
+
+            margin-top: 8px;
+
+        }
+
+
+        .section-title p {
+
+            max-width: 680px;
+
+            margin: 12px auto 0;
+
+            color: #777;
+
+            font-size: 15px;
+
+        }
+
+
+        /* =====================================
+           ABOUT
+        ===================================== */
+
+        .about {
+
+            background: #fffaf7;
+
+        }
+
+
+        .about-container {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 65px;
+
+        }
+
+
+        .about-image {
+
+            width: 50%;
+
+        }
+
+
+        .about-image img {
+
+            width: 100%;
+
+            height: 500px;
+
+            object-fit: cover;
+
+            border-radius: 15px;
+
+            box-shadow:
+                12px 12px 0 #efddc7;
+
+        }
+
+
+        .about-content {
+
+            width: 50%;
+
+        }
+
+
+        .about-content h2 {
+
+            color: #57142f;
+
+            font-size: 42px;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .about-content p {
+
+            color: #666;
+
+            font-size: 15px;
+
+            margin-bottom: 17px;
+
+            line-height: 1.8;
+
+        }
+
+
+        .about-list {
+
+            margin-top: 25px;
+
+        }
+
+
+        .about-list p {
+
+            color: #57142f;
+
+            font-weight: 500;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        /* =====================================
+           COLLECTION
+        ===================================== */
+
+        .collection {
+
+            background: #fdf0e5;
+
+        }
+
+
+        .products {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 30px;
+
+        }
+
+
+        .card {
+
+            background: white;
+
+            border-radius: 15px;
+
+            overflow: hidden;
+
+            box-shadow:
+                0 7px 25px rgba(0, 0, 0, 0.08);
+
+            transition: 0.4s;
+
+            cursor: pointer;
+
+        }
+
+
+        .card:hover {
+
+            transform: translateY(-9px);
+
+            box-shadow:
+                0 15px 35px rgba(0, 0, 0, 0.15);
+
+        }
+
+
+        .card-image {
+
+            height: 350px;
+
+            overflow: hidden;
+
+        }
+
+
+        .card-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+            transition: 0.5s;
+
+        }
+
+
+        .card:hover img {
+
+            transform: scale(1.07);
+
+        }
+
+
+        .card-content {
+
+            padding: 22px;
+
+        }
+
+
+        .card-content h3 {
+
+            color: #57142f;
+
+            font-size: 25px;
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .card-content p {
+
+            color: #777;
+
+            font-size: 14px;
+
+            margin-bottom: 13px;
+
+            line-height: 1.6;
+
+        }
+
+
+        .price {
+
+            color: #b47b36;
+
+            font-size: 19px;
+
+            font-weight: 600;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .shop-btn {
+
+            border: none;
+
+            background: #57142f;
+
+            color: white;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            font-family: 'Poppins', sans-serif;
+
+            transition: 0.3s;
+
+        }
+
+
+        .shop-btn:hover {
+
+            background: #b47b36;
+
+        }
+
+
+        /* =====================================
+           COLLECTION DISPLAY
+        ===================================== */
+
+        #collection-display {
+
+            display: none;
+
+            background: #fffaf7;
+
+        }
+
+
+        .collection-products {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 30px;
+
+        }
+
+
+        .collection-item {
+
+            background: white;
+
+            border-radius: 15px;
+
+            overflow: hidden;
+
+            box-shadow:
+                0 8px 25px rgba(0, 0, 0, 0.10);
+
+            transition: 0.4s;
+
+        }
+
+
+        .collection-item:hover {
+
+            transform: translateY(-8px);
+
+        }
+
+
+        .collection-item img {
+
+            width: 100%;
+
+            height: 450px;
+
+            object-fit: cover;
+
+        }
+
+
+        .collection-info {
+
+            text-align: center;
+
+            padding: 22px;
+
+        }
+
+
+        .collection-info h3 {
+
+            color: #57142f;
+
+            font-size: 24px;
+
+        }
+
+
+        .collection-info p {
+
+            color: #777;
+
+            font-size: 14px;
+
+            margin: 8px 0;
+
+            line-height: 1.6;
+
+        }
+
+
+        .collection-price {
+
+            color: #b47b36;
+
+            font-size: 19px;
+
+            font-weight: 600;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .buy-btn {
+
+            border: none;
+
+            background: #57142f;
+
+            color: white;
+
+            padding: 10px 18px;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+
+        }
+
+
+        .buy-btn:hover {
+
+            background: #b47b36;
+
+        }
+
+
+        /* =====================================
+           WHY CHOOSE US
+        ===================================== */
+
+        .why {
+
+            background: white;
+
+        }
+
+
+        .features {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 25px;
+
+        }
+
+
+        .feature {
+
+            text-align: center;
+
+            padding: 35px 20px;
+
+            background: #fffaf7;
+
+            border: 1px solid #f0dfcf;
+
+            border-radius: 12px;
+
+            transition: 0.3s;
+
+        }
+
+
+        .feature:hover {
+
+            transform: translateY(-7px);
+
+            box-shadow:
+                0 10px 25px rgba(0, 0, 0, 0.08);
+
+        }
+
+
+        .feature-icon {
+
+            font-size: 40px;
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .feature h3 {
+
+            color: #57142f;
+
+            font-size: 21px;
+
+            margin-bottom: 9px;
+
+        }
+
+
+        .feature p {
+
+            color: #777;
+
+            font-size: 13px;
+
+            line-height: 1.7;
+
+        }
+
+
+        /* =====================================
+           BANNER
+        ===================================== */
+
+        .banner {
+
+            min-height: 500px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: flex-end;
+
+            background:
+
+                linear-gradient(
+                    90deg,
+                    rgba(0,0,0,0.10),
+                    rgba(0,0,0,0.72)
+                ),
+
+                url("https://d1fufvy4xao6k9.cloudfront.net/images/blog/posts/2024/04/business-attire-women.jpg")
+
+                center / cover no-repeat;
+
+        }
+
+
+        .banner-content {
+
+            max-width: 520px;
+
+            color: white;
+
+        }
+
+
+        .banner-content span {
+
+            color: #f4d19b;
+
+            font-size: 13px;
+
+            letter-spacing: 3px;
+
+        }
+
+
+        .banner-content h2 {
+
+            font-size: 49px;
+
+            line-height: 1.2;
+
+            margin: 15px 0;
+
+        }
+
+
+        .banner-content p {
+
+            font-size: 15px;
+
+            margin-bottom: 25px;
+
+            line-height: 1.7;
+
+        }
+
+
+        /* =====================================
+           CONTACT
+        ===================================== */
+
+        .contact {
+
+            background: #fff4ec;
+
+        }
+
+
+        .contact-container {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+
+        }
+
+
+        .contact-box {
+
+            text-align: center;
+
+            background: white;
+
+            padding: 35px 20px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 5px 20px rgba(0, 0, 0, 0.06);
+
+            transition: 0.3s;
+
+        }
+
+
+        .contact-box:hover {
+
+            transform: translateY(-5px);
+
+        }
+
+
+        .contact-box .icon {
+
+            font-size: 34px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        .contact-box h3 {
+
+            color: #57142f;
+
+            font-size: 22px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        .contact-box p {
+
+            color: #777;
+
+            font-size: 14px;
+
+            margin: 5px 0;
+
+        }
+
+
+        .contact-box a {
+
+            color: #b47b36;
+
+            font-weight: 600;
+
+        }
+
+
+        /* =====================================
+           NEWSLETTER
+        ===================================== */
+
+        .newsletter {
+
+            text-align: center;
+
+            background: #57142f;
+
+            color: white;
+
+        }
+
+
+        .newsletter h2 {
+
+            font-size: 38px;
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .newsletter > p {
+
+            color: #e9d9de;
+
+            margin-bottom: 22px;
+
+        }
+
+
+        .newsletter form {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            gap: 8px;
+
+        }
+
+
+        .newsletter input {
+
+            width: 310px;
+
+            padding: 13px 18px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            outline: none;
+
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+
+        .newsletter button {
+
+            padding: 13px 22px;
+
+            border: none;
+
+            background: #c99550;
+
+            color: white;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            font-weight: 600;
+
+        }
+
+
+        .newsletter button:hover {
+
+            background: #f1c37d;
+
+            color: #57142f;
+
+        }
+
+
+        /* =====================================
+           THANK YOU
+        ===================================== */
+
+        .thank-you {
+
+            display: none;
+
+            max-width: 550px;
+
+            margin: 30px auto 0;
+
+            padding: 25px;
+
+            background: rgba(255,255,255,0.12);
+
+            border: 1px solid #d9b477;
+
+            border-radius: 12px;
+
+            animation:
+                thankYouAnimation 0.5s ease;
+
+        }
+
+
+        .thank-icon {
+
+            width: 48px;
+
+            height: 48px;
+
+            margin: 0 auto 12px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: #c99550;
+
+            color: white;
+
+            font-size: 26px;
+
+            font-weight: bold;
+
+        }
+
+
+        .thank-you h3 {
+
+            color: #f4d19b;
+
+            font-size: 26px;
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .thank-you p {
+
+            color: #eee;
+
+            font-size: 14px;
+
+            line-height: 1.7;
+
+        }
+
+
+        @keyframes thankYouAnimation {
+
+            from {
+
+                opacity: 0;
+
+                transform: translateY(15px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+        /* =====================================
+           FOOTER
+        ===================================== */
+
+        footer {
+
+            background: #350d1f;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+
+        }
+
+
+        footer p {
+
+            color: #d9c4ca;
+
+            font-size: 13px;
+
+        }
+
+
+        /* =====================================
+           RESPONSIVE
+        ===================================== */
+
+        @media(max-width: 950px) {
+
+            .products {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+            }
+
+
+            .collection-products {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+            }
+
+
+            .features {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+            }
+
+
+            .about-container {
+
+                flex-direction: column;
+
+            }
+
+
+            .about-image,
+            .about-content {
+
+                width: 100%;
+
+            }
+
+
+            .contact-container {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .hero-content h1 {
+
+                font-size: 60px;
+
+            }
+
+        }
+
+
+        @media(max-width: 650px) {
+
+            header {
+
+                padding: 13px 4%;
+
+            }
+
+
+            .logo {
+
+                font-size: 21px;
+
+            }
+
+
+            nav {
+
+                gap: 9px;
+
+            }
+
+
+            nav a {
+
+                font-size: 9px;
+
+            }
+
+
+            section {
+
+                padding: 65px 5%;
+
+            }
+
+
+            .hero-content h1 {
+
+                font-size: 45px;
+
+            }
+
+
+            .hero-content p {
+
+                font-size: 16px;
+
+            }
+
+
+            .hero-small {
+
+                font-size: 10px;
+
+                letter-spacing: 2px;
+
+            }
+
+
+            .section-title h2 {
+
+                font-size: 32px;
+
+            }
+
+
+            .products,
+            .collection-products {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .features {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .about-content h2 {
+
+                font-size: 32px;
+
+            }
+
+
+            .about-image img {
+
+                height: 350px;
+
+            }
+
+
+            .banner {
+
+                min-height: 500px;
+
+                justify-content: center;
+
+                text-align: center;
+
+            }
+
+
+            .banner-content h2 {
+
+                font-size: 37px;
+
+            }
+
+
+            .newsletter form {
+
+                flex-direction: column;
+
+            }
+
+
+            .newsletter input {
+
+                width: 90%;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         HEADER
+    ===================================== -->
+
+    <header>
+
+        <div class="logo">
+            SILK AURA
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#collection">
+                Collections
+            </a>
+
+            <a href="#why">
+                Why Us
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================
+         HOME
+    ===================================== -->
+
+    <section id="home">
+
+        <div class="hero-content">
+
+            <div class="hero-small">
+                HERITAGE • ELEGANCE • STYLE
+            </div>
+
+
+            <h1>
+                Silk Aura
+            </h1>
+
+
+            <p>
+                Elegance Woven in Every Thread
+            </p>
+
+
+            <a href="#collection"
+               class="main-btn">
+
+                Explore Collection
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         ABOUT
+    ===================================== -->
+
+    <section id="about"
+             class="about">
+
+        <div class="section-title">
+
+            <span>
+                OUR STORY
+            </span>
+
+
+            <h2>
+                The Art of Timeless Elegance
+            </h2>
+
+
+            <p>
+                Where traditional craftsmanship meets
+                modern fashion.
+            </p>
+
+        </div>
+
+
+        <div class="about-container">
+
+
+            <div class="about-image">
+
+                <img
+                    src="https://th.bing.com/th/id/R.b8d9fb592f1c0166f04099eda42ca2f3?rik=CIMwje%2fhpA7Q3A&riu=http%3a%2f%2fwww.shreekama.com%2fcdn%2fshop%2farticles%2fa-visually-appealing-banner-image-for-a-blog-post--0tL3ZlYAQcGpD7FbSV7WPw-MXCR-mevQAqMGg2t4H8iKA.jpg%3fv%3d1717999363&ehk=wwnbIhy17yZjUUMmttgceM5aooP0wcs97OjMGq6N2fA%3d&risl=&pid=ImgRaw&r=0"
+                    alt="Silk Aura Collection">
+
+            </div>
+
+
+            <div class="about-content">
+
+                <h2>
+                    Tradition Meets Modern Style
+                </h2>
+
+
+                <p>
+                    Welcome to Silk Aura, where India's
+                    rich textile heritage meets contemporary
+                    fashion.
+                </p>
+
+
+                <p>
+                    Every saree is carefully selected to
+                    bring together traditional craftsmanship,
+                    luxurious fabrics and modern elegance.
+                </p>
+
+
+                <div class="about-list">
+
+                    <p>
+                        ✓ Premium Quality Fabrics
+                    </p>
+
+                    <p>
+                        ✓ Traditional Craftsmanship
+                    </p>
+
+                    <p>
+                        ✓ Elegant Modern Designs
+                    </p>
+
+                    <p>
+                        ✓ Perfect for Every Occasion
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         COLLECTIONS
+    ===================================== -->
+
+    <section id="collection"
+             class="collection">
+
+
+        <div class="section-title">
+
+            <span>
+                DISCOVER
+            </span>
+
+
+            <h2>
+                Our Exclusive Collection
+            </h2>
+
+
+            <p>
+                Choose a collection and discover beautiful
+                sarees created for every occasion.
+            </p>
+
+        </div>
+
+
+
+        <div class="products">
+
+
+            <!-- TRADITIONAL -->
+
+            <div class="card"
+                 onclick="showCollection('traditional')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://www.bing.com/th/id/OIP.gv63WFu-ClmAkH3olJBmkgHaJ3?w=193&h=257&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2"
+                        alt="Traditional Sarees">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Traditional Sarees
+                    </h3>
+
+
+                    <p>
+                        Timeless Indian sarees inspired
+                        by heritage and craftsmanship.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹4,999
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('traditional')">
+
+                        View Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MODERN -->
+
+            <div class="card"
+                 onclick="showCollection('modern')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://i.pinimg.com/originals/e3/d1/12/e3d112f5dc4e8818bfd27d2975b20288.jpg"
+                        alt="Modern Sarees">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Modern Sarees
+                    </h3>
+
+
+                    <p>
+                        Contemporary designs for today's
+                        confident woman.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹3,999
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('modern')">
+
+                        View Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DESIGNER -->
+
+            <div class="card"
+                 onclick="showCollection('designer')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://www.bing.com/th/id/OIP.lSpAEJjsK8wGcXD_0Xq-FAHaKL?w=193&h=265&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2"
+                        alt="Designer Sarees">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Designer Collection
+                    </h3>
+
+
+                    <p>
+                        Contemporary fashion with
+                        timeless Indian elegance.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹4,499
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('designer')">
+
+                        Explore
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ROYAL SILK -->
+
+            <div class="card"
+                 onclick="showCollection('royal')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://tse3.mm.bing.net/th/id/OIP.y2uJ7jD4x1tP_qlxSztuiQHaEJ?r=0&w=1600&h=896&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Royal Silk">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Royal Silk
+                    </h3>
+
+
+                    <p>
+                        Luxurious silk sarees with
+                        beautiful traditional patterns.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹4,999
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('royal')">
+
+                        Explore
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BRIDAL -->
+
+            <div class="card"
+                 onclick="showCollection('bridal')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://tse1.mm.bing.net/th/id/OIP.WVAF22NTvcOBuGq7zDgoBgHaJ4?r=0&w=1080&h=1440&rs=1&pid=ImgDetMain&o=7&rm=3"
+                        alt="Bridal Collection">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Bridal Collection
+                    </h3>
+
+
+                    <p>
+                        Luxurious sarees created for brides,
+                        weddings and special occasions.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹8,999
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('bridal')">
+
+                        Explore Bridal
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FESTIVAL -->
+
+            <div class="card"
+                 onclick="showCollection('festival')">
+
+                <div class="card-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb"
+                        alt="Festival Sarees">
+
+                </div>
+
+
+                <div class="card-content">
+
+                    <h3>
+                        Festival Collection
+                    </h3>
+
+
+                    <p>
+                        Vibrant colours and traditional
+                        patterns for every celebration.
+                    </p>
+
+
+                    <div class="price">
+                        From ₹5,999
+                    </div>
+
+
+                    <button class="shop-btn"
+                            onclick="event.stopPropagation();
+                            showCollection('festival')">
+
+                        Explore
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         COLLECTION DISPLAY
+    ===================================== -->
+
+    <section id="collection-display">
+
+
+        <div class="section-title">
+
+            <span id="collection-label">
+                SELECTED COLLECTION
+            </span>
+
+
+            <h2 id="collection-title">
+                Explore Our Sarees
+            </h2>
+
+
+            <p id="collection-description">
+                Select a collection to explore
+                our beautiful designs.
+            </p>
+
+        </div>
+
+
+        <div class="collection-products"
+             id="collection-products">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         WHY CHOOSE US
+    ===================================== -->
+
+    <section id="why"
+             class="why">
+
+
+        <div class="section-title">
+
+            <span>
+                WHY SILK AURA
+            </span>
+
+
+            <h2>
+                Why Choose Us?
+            </h2>
+
+
+            <p>
+                More than fashion — we bring tradition,
+                quality and elegance together.
+            </p>
+
+        </div>
+
+
+        <div class="features">
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ✨
+                </div>
+
+
+                <h3>
+                    Premium Quality
+                </h3>
+
+
+                <p>
+                    Carefully selected fabrics with
+                    excellent finishing and durability.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🧵
+                </div>
+
+
+                <h3>
+                    Skilled Craftsmanship
+                </h3>
+
+
+                <p>
+                    Every design reflects India's
+                    rich weaving traditions.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    💎
+                </div>
+
+
+                <h3>
+                    Unique Designs
+                </h3>
+
+
+                <p>
+                    Traditional beauty combined with
+                    modern fashion trends.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ❤️
+                </div>
+
+
+                <h3>
+                    Customer Love
+                </h3>
+
+
+                <p>
+                    Creating a beautiful and memorable
+                    shopping experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         FASHION BANNER
+    ===================================== -->
+
+    <section class="banner">
+
+
+        <div class="banner-content">
+
+            <span>
+                STYLE FOR EVERY MOMENT
+            </span>
+
+
+            <h2>
+                Elegance Beyond Tradition
+            </h2>
+
+
+            <p>
+                From traditional celebrations to modern
+                professional occasions, discover styles
+                that express your personality.
+            </p>
+
+
+            <a href="#collection"
+               class="main-btn">
+
+                View Collection
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         CONTACT
+    ===================================== -->
+
+    <section id="contact"
+             class="contact">
+
+
+        <div class="section-title">
+
+            <span>
+                GET IN TOUCH
+            </span>
+
+
+            <h2>
+                Contact Silk Aura
+            </h2>
+
+
+            <p>
+                Have questions about our collection?
+                We would love to hear from you.
+            </p>
+
+        </div>
+
+
+        <div class="contact-container">
+
+
+            <!-- PHONE -->
+
+            <div class="contact-box">
+
+                <div class="icon">
+                    📞
+                </div>
+
+
+                <h3>
+                    Phone
+                </h3>
+
+
+                <p>
+                    <a href="tel:+919876543210">
+                        +91 98765 43210
+                    </a>
+                </p>
+
+
+                <p>
+                    Monday – Saturday
+                </p>
+
+
+                <p>
+                    9:00 AM – 7:00 PM
+                </p>
+
+            </div>
+
+
+
+            <!-- EMAIL -->
+
+            <div class="contact-box">
+
+                <div class="icon">
+                    📧
+                </div>
+
+
+                <h3>
+                    Email
+                </h3>
+
+
+                <p>
+                    <a href="mailto:silkaura@example.com">
+                        silkaura@example.com
+                    </a>
+                </p>
+
+
+                <p>
+                    We usually reply within 24 hours.
+                </p>
+
+            </div>
+
+
+
+            <!-- LOCATION -->
+
+            <div class="contact-box">
+
+                <div class="icon">
+                    📍
+                </div>
+
+
+                <h3>
+                    Location
+                </h3>
+
+
+                <p>
+                    Tamil Nadu, India
+                </p>
+
+
+                <p>
+                    Serving customers across India
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         NEWSLETTER
+    ===================================== -->
+
+    <section class="newsletter">
+
+
+        <h2>
+            Stay Connected
+        </h2>
+
+
+        <p>
+            Subscribe for new collections,
+            offers and fashion updates.
+        </p>
+
+
+        <form onsubmit="subscribeUser(event)">
+
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+                required>
+
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+
+
+        <!-- THANK YOU -->
+
+        <div id="thankYouMessage"
+             class="thank-you">
+
+
+            <div class="thank-icon">
+                ✓
+            </div>
+
+
+            <h3>
+                Thank You! ❤️
+            </h3>
+
+
+            <p>
+                Thank you for subscribing to Silk Aura.
+                You'll receive our latest collections,
+                offers and fashion updates.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         FOOTER
+    ===================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Silk Aura |
+            Elegance Woven in Every Thread
+        </p>
+
+    </footer>
+
+
+
+    <!-- =====================================
+         JAVASCRIPT
+    ===================================== -->
+
+    <script>
+
+
+        /* =====================================
+           SHOW COLLECTION
+        ===================================== */
+
+        function showCollection(type) {
+
+
+            const display =
+                document.getElementById(
+                    "collection-display"
+                );
+
+
+            const title =
+                document.getElementById(
+                    "collection-title"
+                );
+
+
+            const label =
+                document.getElementById(
+                    "collection-label"
+                );
+
+
+            const description =
+                document.getElementById(
+                    "collection-description"
+                );
+
+
+            const products =
+                document.getElementById(
+                    "collection-products"
+                );
+
+
+
+            /* =================================
+               TRADITIONAL
+            ================================= */
+
+            if (type === "traditional") {
+
+
+                label.innerText =
+                    "TRADITIONAL COLLECTION";
+
+
+                title.innerText =
+                    "Traditional Silk Sarees";
+
+
+                description.innerText =
+                    "Discover timeless Indian silk sarees inspired by heritage, culture and traditional craftsmanship.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://www.bing.com/th/id/OIP.gv63WFu-ClmAkH3olJBmkgHaJ3?w=193&h=257&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2"
+                            alt="Heritage Silk">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Heritage Silk
+                            </h3>
+
+
+                            <p>
+                                Classic traditional silk design.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹5,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Heritage Silk')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://www.bing.com/th/id/OIP.HRcHsNr7cuDbkwAMj5OmZgHaLH?w=193&h=290&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2"
+                            alt="Royal Tradition">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Royal Tradition
+                            </h3>
+
+
+                            <p>
+                                Elegant traditional saree design.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹6,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Royal Tradition')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://tse3.mm.bing.net/th/id/OIP.w4_Xxo6kwMnTu-G1IX7IQwHaQm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Classic Kanchipuram">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Classic Kanchipuram
+                            </h3>
+
+
+                            <p>
+                                Traditional elegance for special occasions.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹7,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Classic Kanchipuram')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               MODERN
+            ================================= */
+
+            else if (type === "modern") {
+
+
+                label.innerText =
+                    "MODERN COLLECTION";
+
+
+                title.innerText =
+                    "Modern Sarees";
+
+
+                description.innerText =
+                    "Contemporary sarees combining modern fashion with the elegance of Indian tradition.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://i.pinimg.com/originals/e3/d1/12/e3d112f5dc4e8818bfd27d2975b20288.jpg"
+                            alt="Contemporary Silk">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Contemporary Silk
+                            </h3>
+
+
+                            <p>
+                                Modern styling with luxurious fabric.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹4,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Contemporary Silk')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://rachnas.co.nz/media/catalog/product/cache/3/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/s/r/sr004.jpg"
+                            alt="Designer Modern">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Designer Modern
+                            </h3>
+
+
+                            <p>
+                                Stylish designs for the modern woman.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹5,999
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Designer Modern')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               BRIDAL
+            ================================= */
+
+            else if (type === "bridal") {
+
+
+                label.innerText =
+                    "BRIDAL COLLECTION";
+
+
+                title.innerText =
+                    "Royal Bridal Silk Sarees";
+
+
+                description.innerText =
+                    "Celebrate your special moments with luxurious silk sarees crafted for brides and grand occasions.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://tse1.mm.bing.net/th/id/OIP.WVAF22NTvcOBuGq7zDgoBgHaJ4?r=0&w=1080&h=1440&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Maroon Bridal Silk Saree">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Maroon Royal Silk
+                            </h3>
+
+
+                            <p>
+                                Rich bridal silk with elegant
+                                traditional detailing.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹9,999
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Maroon Royal Silk')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://tse1.mm.bing.net/th/id/OIP.EScdj7pbk-IlxonOD4ICGQHaJ4?r=0&w=1080&h=1440&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Purple Bridal Silk Saree">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Purple Royal Silk
+                            </h3>
+
+
+                            <p>
+                                Beautiful purple silk with
+                                luxurious golden detailing.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹10,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Purple Royal Silk')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               DESIGNER
+            ================================= */
+
+            else if (type === "designer") {
+
+
+                label.innerText =
+                    "DESIGNER COLLECTION";
+
+
+                title.innerText =
+                    "Designer Sarees";
+
+
+                description.innerText =
+                    "Exclusive contemporary designs created for elegant and confident women.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://www.bing.com/th/id/OIP.lSpAEJjsK8wGcXD_0Xq-FAHaKL?w=193&h=265&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=ImgAns&rm=2"
+                            alt="Designer Saree">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Aura Designer
+                            </h3>
+
+
+                            <p>
+                                Elegant designer saree for special occasions.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹6,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Aura Designer')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://d1fufvy4xao6k9.cloudfront.net/images/blog/posts/2024/04/business-attire-women.jpg"
+                            alt="Modern Designer Saree">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Signature Designer
+                            </h3>
+
+
+                            <p>
+                                Sophisticated fashion for modern occasions.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹7,499
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Signature Designer')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               ROYAL SILK
+            ================================= */
+
+            else if (type === "royal") {
+
+
+                label.innerText =
+                    "ROYAL SILK COLLECTION";
+
+
+                title.innerText =
+                    "Royal Silk Sarees";
+
+
+                description.innerText =
+                    "Luxurious silk sarees inspired by India's royal textile traditions.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://tse3.mm.bing.net/th/id/OIP.y2uJ7jD4x1tP_qlxSztuiQHaEJ?r=0&w=1600&h=896&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Royal Silk">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Royal Aura Silk
+                            </h3>
+
+
+                            <p>
+                                Luxurious silk with traditional beauty.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹6,999
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Royal Aura Silk')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               FESTIVAL
+            ================================= */
+
+            else if (type === "festival") {
+
+
+                label.innerText =
+                    "FESTIVAL COLLECTION";
+
+
+                title.innerText =
+                    "Festival Sarees";
+
+
+                description.innerText =
+                    "Bright colours, beautiful patterns and elegant sarees for every celebration.";
+
+
+                products.innerHTML = `
+
+
+                    <div class="collection-item">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb"
+                            alt="Festival Saree">
+
+
+                        <div class="collection-info">
+
+                            <h3>
+                                Festive Glow
+                            </h3>
+
+
+                            <p>
+                                Vibrant traditional saree for celebrations.
+                            </p>
+
+
+                            <div class="collection-price">
+                                ₹5,999
+                            </div>
+
+
+                            <button
+                                class="buy-btn"
+                                onclick="addToCollection('Festive Glow')">
+
+                                Add to Collection
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+
+
+
+            /* =================================
+               SHOW RESULT
+            ================================= */
+
+            display.style.display = "block";
+
+
+            display.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "start"
+
+            });
+
+        }
+
+
+
+        /* =====================================
+           ADD TO COLLECTION
+        ===================================== */
+
+        function addToCollection(name) {
+
+
+            alert(
+                "✨ " +
+                name +
+                " has been added to your collection!"
+            );
+
+        }
+
+
+
+        /* =====================================
+           NEWSLETTER
+        ===================================== */
+
+        function subscribeUser(event) {
+
+
+            event.preventDefault();
+
+
+            const email =
+                document.getElementById("email");
+
+
+            const thankYou =
+                document.getElementById(
+                    "thankYouMessage"
+                );
+
+
+            if (email.value.trim() !== "") {
+
+
+                thankYou.style.display =
+                    "block";
+
+
+                email.value = "";
+
+
+                thankYou.scrollIntoView({
+
+                    behavior: "smooth",
+
+                    block: "center"
+
+                });
+
+            }
+
+        }
+
+
+
+        /* =====================================
+           HOME BUTTON
+        ===================================== */
+
+        document.querySelector(
+            'a[href="#home"]'
+        ).addEventListener(
+            "click",
+            function () {
+
+                document.getElementById(
+                    "collection-display"
+                ).style.display = "none";
+
+            }
+        );
+
+
+    </script>
+
+
+</body>
+
+</html>
